@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from https://xdrive.site/sites/AUREOLE/menu.html by HTTrack Website Copier/3.x [XR&CO], Wed, 11 Nov 2026 15:54:43 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore AUREOLE's exquisite menu featuring appetizers, main courses, desserts, and an extensive wine selection.">
+    <link rel="canonical" href="https://www.your-domain.com/menu.html">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AUREOLE">
+    <meta property="og:title" content="Menu | AUREOLE">
+    <meta property="og:description" content="Explore AUREOLE's exquisite menu featuring appetizers, main courses, desserts, and an extensive wine selection.">
+    <meta property="og:url" content="https://www.your-domain.com/menu.html">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Menu | AUREOLE</title>
+    
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&amp;family=Montserrat:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+    <link href="../../../cdn.jsdelivr.net/npm/bootstrap%405.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../cdn.jsdelivr.net/npm/swiper%4011.1.14/swiper-bundle.min.css">
+    <link href="../../../unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../cdn.jsdelivr.net/npm/bootstrap-icons%401.11.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Menu",
+  "name": "AUREOLE Menu",
+  "url": "https://www.your-domain.com/menu.html",
+  "inLanguage": "en",
+  "hasMenuSection": [
+    {
+      "@type": "MenuSection",
+      "name": "Appetizers"
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Mains"
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Seafood"
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Desserts"
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Wine & Bar"
+    }
+  ]
+}
+    </script>
+</head>
+<body>
+
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">AUREOLE</div>
+            <div class="preloader-line"></div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">AUREOLE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item ms-lg-3"><a href="reservations.html" class="btn btn-primary">Reservations</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero u36">
+        <div class="hero-bg" style="background: linear-gradient(rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.9)), url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1920&amp;q=80') center/cover no-repeat;"></div>
+        <div class="hero-content u10">
+            <p class="hero-subtitle">Culinary Excellence</p>
+            <h1 class="hero-title">Our Menu</h1>
+        </div>
+    </section>
+
+    <!-- Menu Navigation -->
+    <section class="u65">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills justify-content-center flex-wrap" id="menuTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active btn btn-outline u18" id="appetizers-tab" data-bs-toggle="pill" data-bs-target="#appetizers" type="button" role="tab">Appetizers</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-outline u18" id="mains-tab" data-bs-toggle="pill" data-bs-target="#mains" type="button" role="tab">Main Courses</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-outline u18" id="seafood-tab" data-bs-toggle="pill" data-bs-target="#seafood" type="button" role="tab">Seafood</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-outline u18" id="desserts-tab" data-bs-toggle="pill" data-bs-target="#desserts" type="button" role="tab">Desserts</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-outline u18" id="wine-tab" data-bs-toggle="pill" data-bs-target="#wine" type="button" role="tab">Wine & Bar</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Content -->
+    <section class="u66">
+        <div class="container">
+            <div class="tab-content" id="menuTabContent">
+                
+                <!-- Appetizers -->
+                <div class="tab-pane fade show active" id="appetizers" role="tabpanel">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="menu-category" data-aos="fade-right">
+                                <h3 class="menu-category-title">Cold Appetizers</h3>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Oysters on the Half Shell <span class="menu-badge">Fresh</span></h4>
+                                        <p>Half dozen, mignonette, cocktail sauce</p>
+                                    </div>
+                                    <span class="menu-item-price">$32</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Tuna Tartare</h4>
+                                        <p>Avocado, sesame, yuzu dressing, crispy wonton</p>
+                                    </div>
+                                    <span class="menu-item-price">$38</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Beef Carpaccio</h4>
+                                        <p>Truffle aioli, arugula, parmesan, capers</p>
+                                    </div>
+                                    <span class="menu-item-price">$34</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Burrata Salad</h4>
+                                        <p>Heirloom tomatoes, basil oil, aged balsamic</p>
+                                    </div>
+                                    <span class="menu-item-price">$28</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-category" data-aos="fade-left">
+                                <h3 class="menu-category-title">Hot Appetizers</h3>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Seared Foie Gras <span class="menu-badge">Chef's</span></h4>
+                                        <p>Fig compote, brioche, port wine reduction</p>
+                                    </div>
+                                    <span class="menu-item-price">$42</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Crispy Calamari</h4>
+                                        <p>Lemon aioli, marinara, fresh herbs</p>
+                                    </div>
+                                    <span class="menu-item-price">$26</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Escargots de Bourgogne</h4>
+                                        <p>Garlic herb butter, puff pastry</p>
+                                    </div>
+                                    <span class="menu-item-price">$24</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Wagyu Beef Sliders</h4>
+                                        <p>Truffle cheese, caramelized onions, brioche</p>
+                                    </div>
+                                    <span class="menu-item-price">$36</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Courses -->
+                <div class="tab-pane fade" id="mains" role="tabpanel">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="menu-category">
+                                <h3 class="menu-category-title">Steaks & Chops</h3>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Filet Mignon <span class="menu-badge">8oz</span></h4>
+                                        <p>Beef tenderloin, red wine reduction</p>
+                                    </div>
+                                    <span class="menu-item-price">$68</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Dry-Aged Ribeye <span class="menu-badge">Popular</span></h4>
+                                        <p>45-day aged, bone marrow butter, roasted garlic</p>
+                                    </div>
+                                    <span class="menu-item-price">$85</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Wagyu A5 Tenderloin</h4>
+                                        <p>Japanese A5, truffle jus, wasabi</p>
+                                    </div>
+                                    <span class="menu-item-price">$185</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Lamb Chops</h4>
+                                        <p>Herb crust, ratatouille, lamb jus</p>
+                                    </div>
+                                    <span class="menu-item-price">$72</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-category">
+                                <h3 class="menu-category-title">Poultry & Game</h3>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Pan-Seared Duck Breast</h4>
+                                        <p>Cherry gastrique, confit leg, wild rice</p>
+                                    </div>
+                                    <span class="menu-item-price">$68</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Roasted Chicken Supreme</h4>
+                                        <p>Black truffle, foie gras stuffing, jus</p>
+                                    </div>
+                                    <span class="menu-item-price">$58</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Venison Loin</h4>
+                                        <p>Juniper berry sauce, root vegetables</p>
+                                    </div>
+                                    <span class="menu-item-price">$78</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Quail</h4>
+                                        <p>Prosciutto-wrapped, grape reduction</p>
+                                    </div>
+                                    <span class="menu-item-price">$52</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seafood -->
+                <div class="tab-pane fade" id="seafood" role="tabpanel">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="menu-category">
+                                <h3 class="menu-category-title">Fresh Catch</h3>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Chilean Sea Bass</h4>
+                                        <p>Miso glaze, bok choy, ginger broth</p>
+                                    </div>
+                                    <span class="menu-item-price">$72</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Atlantic Salmon</h4>
+                                        <p>Champagne beurre blanc, asparagus</p>
+                                    </div>
+                                    <span class="menu-item-price">$58</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Branzino</h4>
+                                        <p>Whole roasted, lemon, capers, herbs</p>
+                                    </div>
+                                    <span class="menu-item-price">$65</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-category">
+                                <h3 class="menu-category-title">Shellfish</h3>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Lobster Thermidor <span class="menu-badge">Signature</span></h4>
+                                        <p>Cognac cream sauce, gruyère crust</p>
+                                    </div>
+                                    <span class="menu-item-price">$95</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Seafood Tower <span class="menu-badge">2 Pers</span></h4>
+                                        <p>Lobster, crab, shrimp, oysters, caviar</p>
+                                    </div>
+                                    <span class="menu-item-price">$195</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Diver Scallops</h4>
+                                        <p>Cauliflower purée, brown butter, capers</p>
+                                    </div>
+                                    <span class="menu-item-price">$68</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="tab-pane fade" id="desserts" role="tabpanel">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="menu-category">
+                                <h3 class="menu-category-title">Sweet Creations</h3>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Golden Chocolate Sphere <span class="menu-badge">Chef's</span></h4>
+                                        <p>Dark chocolate mousse, 24k gold, caramel</p>
+                                    </div>
+                                    <span class="menu-item-price">$28</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Crème Brûlée</h4>
+                                        <p>Madagascar vanilla, fresh berries</p>
+                                    </div>
+                                    <span class="menu-item-price">$18</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Tiramisu</h4>
+                                        <p>Espresso-soaked ladyfingers, mascarpone</p>
+                                    </div>
+                                    <span class="menu-item-price">$20</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Soufflé au Grand Marnier</h4>
+                                        <p>Orange liqueur, vanilla crème anglaise</p>
+                                    </div>
+                                    <span class="menu-item-price">$24</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-category">
+                                <h3 class="menu-category-title">Cheese & Extras</h3>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Artisanal Cheese Selection</h4>
+                                        <p>Five varieties, honeycomb, dried fruits</p>
+                                    </div>
+                                    <span class="menu-item-price">$32</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Warm Apple Tart</h4>
+                                        <p>Caramel ice cream, calvados sauce</p>
+                                    </div>
+                                    <span class="menu-item-price">$22</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Macaron Selection</h4>
+                                        <p>Assorted flavors, six pieces</p>
+                                    </div>
+                                    <span class="menu-item-price">$16</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wine & Bar -->
+                <div class="tab-pane fade" id="wine" role="tabpanel">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="menu-category">
+                                <h3 class="menu-category-title">Champagne & Sparkling</h3>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Dom Pérignon 2012</h4>
+                                        <p>By the glass or bottle</p>
+                                    </div>
+                                    <span class="menu-item-price">$65/$450</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Krug Grande Cuvée</h4>
+                                        <p>Prestigious champagne</p>
+                                    </div>
+                                    <span class="menu-item-price">$85/$550</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Veuve Clicquot</h4>
+                                        <p>Yellow Label Brut</p>
+                                    </div>
+                                    <span class="menu-item-price">$28/$180</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-category">
+                                <h3 class="menu-category-title">Red Wine</h3>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Château Margaux 2015</h4>
+                                        <p>First Growth Bordeaux</p>
+                                    </div>
+                                    <span class="menu-item-price">$850</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Opus One 2018</h4>
+                                        <p>Napa Valley Cabernet blend</p>
+                                    </div>
+                                    <span class="menu-item-price">$450</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-category">
+                                <h3 class="menu-category-title">Signature Cocktails</h3>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Aureole Martini <span class="menu-badge">Signature</span></h4>
+                                        <p>Belvedere vodka, white truffle, dry vermouth</p>
+                                    </div>
+                                    <span class="menu-item-price">$32</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Smoked Old Fashioned</h4>
+                                        <p>Woodford Reserve, maple, aromatic bitters</p>
+                                    </div>
+                                    <span class="menu-item-price">$28</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Truffle Negroni</h4>
+                                        <p>Gin, Campari, truffle-infused vermouth</p>
+                                    </div>
+                                    <span class="menu-item-price">$26</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Golden Elixir</h4>
+                                        <p>Champagne, St-Germain, edible gold</p>
+                                    </div>
+                                    <span class="menu-item-price">$34</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-category">
+                                <h3 class="menu-category-title">Spirits</h3>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Macallan 25 Year</h4>
+                                        <p>Single malt scotch</p>
+                                    </div>
+                                    <span class="menu-item-price">$95</span>
+                                </div>
+                                
+                                <div class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4>Louis XIII Cognac</h4>
+                                        <p>Rémy Martin, 1.5oz pour</p>
+                                    </div>
+                                    <span class="menu-item-price">$185</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tasting Menu Section -->
+    <section class="u12">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <img class="u15" src="https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Tasting Menu" style="width: 100%; height: 500px"; loading="lazy" decoding="async">
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="u37">
+                        <p class="section-subtitle text-start">Chef's Selection</p>
+                        <h2 class="section-title text-start">Tasting Menu Experience</h2>
+                        <p class="u40">
+                            Embark on a culinary journey with our exclusive 7-course tasting menu, 
+                            personally curated by Chef Marcus Sterling. Each course is paired with 
+                            carefully selected wines to enhance your dining experience.
+                        </p>
+                        <ul class="u67">
+                            <li class="u2"><i class="bi bi-check-circle u5"></i> 7 Signature Courses</li>
+                            <li class="u2"><i class="bi bi-check-circle u5"></i> Wine Pairing Included</li>
+                            <li class="u2"><i class="bi bi-check-circle u5"></i> Amuse-bouche & Petit Fours</li>
+                            <li class="u2"><i class="bi bi-check-circle u5"></i> Chef's Table Option Available</li>
+                        </ul>
+                        <h3 class="u68">$285 per person</h3>
+                        <p class="u69">Wine pairing additional $150</p>
+                        <a href="reservations.html" class="btn btn-primary mt-4">Reserve Tasting Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dietary Info -->
+    <section>
+        <div class="container text-center">
+            <p class="section-subtitle" data-aos="fade-up">Dietary Options</p>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Accommodating Every Guest</h2>
+            <div class="row mt-5">
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bi bi-activity u8"></i>
+                    <h4 class="u26">Vegetarian</h4>
+                    <p class="u7">Extensive plant-based options available</p>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bi bi-heart-pulse u8"></i>
+                    <h4 class="u26">Gluten-Free</h4>
+                    <p class="u7">Many dishes can be modified</p>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                    <i class="bi bi-egg-fried u8"></i>
+                    <h4 class="u26">Vegan</h4>
+                    <p class="u7">Dedicated vegan tasting menu</p>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="500">
+                    <i class="bi bi-exclamation-triangle u8"></i>
+                    <h4 class="u26">Allergies</h4>
+                    <p class="u7">Please inform us of any allergies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <h3 class="footer-brand">AUREOLE</h3>
+                    <p class="footer-text">
+                        An extraordinary dining experience where culinary artistry meets 
+                        impeccable service in an atmosphere of refined elegance.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Our Menu</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="private-events.html">Private Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h4 class="footer-title">Contact</h4>
+                    <div class="footer-contact">
+                        <p>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            123 Gourmet Avenue<br>
+                            New York, NY 10001
+                        </p>
+                        <p>
+                            <i class="bi bi-telephone-fill"></i>
+                            +1 (555) 123-4567
+                        </p>
+                        <p>
+                            <i class="bi bi-envelope-fill"></i>
+                            info@aureole.com
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p class="u4">
+                        Subscribe for exclusive offers and culinary insights.
+                    </p>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email" required>
+                            <button class="btn btn-primary" type="submit">
+                                <i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copy">
+                    &copy; 2026 AUREOLE. All rights reserved.
+                </p>
+                <div>
+                    <a class="u6" href="privacy.html">Privacy Policy</a>
+                    <a class="u3" href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../../cdn.jsdelivr.net/npm/bootstrap%405.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="../../../cdn.jsdelivr.net/npm/swiper%4011.1.14/swiper-bundle.min.js"></script>
+    <script src="../../../unpkg.com/aos%402.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+<!-- Mirrored from https://xdrive.site/sites/AUREOLE/menu.html by HTTrack Website Copier/3.x [XR&CO], Wed, 11 Nov 2026 15:54:44 GMT -->
+</html>
